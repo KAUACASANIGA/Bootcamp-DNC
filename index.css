@@ -109,7 +109,7 @@ body{
     header .invert{
         background-color: black;
         font-weight: bolder;
-        padding: 5px;
+        padding: 3px;
     }
         /*Formulario*/
 
@@ -278,6 +278,9 @@ body{
    }
 
 @media only screen and (max-width:600px){
+    
+    /*Menu*/
+    
     #menuPrincipal{
         display: flex;
         flex-direction: column;
@@ -301,4 +304,39 @@ body{
         width: 100%;
         margin: 0px;
     }
+    
+    /*section*/
+
+    section h1{
+        font-size: 35px;
+    }
+
+    section h2{
+        font-size: 20px;
+        padding: 0px 5px 0px 5px;
+    }
+     header .invert{
+        background-color: black;
+        font-weight: bolder;
+        padding: 1px;
+    
+     }
+    /*Fomr*/
+
+    form{
+        width: 80% ;
+        font-size: 15px;
+    }
+    .checkbox-itens label{
+        font-size: 14px;
+    }
+    
+
+    /*Footer*/
+
+    footer .lineOne{
+        flex-direction: column;
+        margin-bottom: 250px;
+    }
+
 }
